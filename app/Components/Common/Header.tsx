@@ -6,7 +6,7 @@ import { HiBars3,HiOutlineShoppingCart } from "react-icons/hi2";
 const Header = () => {
   const {onSideBarOpen } = useSideBarDrawer();
   return (
-    <header className="grid grid-cols-2 py-5 px-4 md:px-12 items-center sticky top-0 z-10 bg-white">
+    <header className="grid grid-cols-2 py-5 px-4 md:px-12 items-center sticky top-0 z-10 bg-white  shadow-sm">
       {/* left area  */}
       <div className="flex  items-center gap-x-8">
         <button onClick={onSideBarOpen} className="p-2 rounded-full bg-slate-200 text-gray-500 hover:bg-green-200 hover:text-green-600">
