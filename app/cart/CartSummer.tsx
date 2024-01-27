@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import CartList from './CartList'
+import LocationBtn from '../Components/Common/LocationBtn'
 
 
 const CartSummer = () => {
@@ -23,7 +24,7 @@ const CartSummer = () => {
                 Delivery Address
               </h2>
               <div>
-               Location
+              <LocationBtn/>
               </div>
             </div>
           </div>
