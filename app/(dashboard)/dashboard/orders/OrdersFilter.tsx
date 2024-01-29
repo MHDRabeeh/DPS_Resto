@@ -13,7 +13,7 @@ const OrdersFilter = () => {
           className="md:w-auto flex items-center justify-center py-2 px-4 text-sm  text-gray-900 focus:outline-none bg-white  border-b-2 border-gray-400 hover:bg-gray-100 hover:text-green-700"
         >
           Filter
-          <HiChevronDown className="ml-1 mr-1.5 w-5 h-5" />
+          <HiChevronDown className={`${isOpen?"rotate-180 duration-500":"rotate-0 duration-500"} ml-1 mr-1.5 w-5 h-5`} />
         </button>
         {isOpen && (
           <div className=" absolute  mt-2 -mr-1 w-56 bg-white rounded-md shadow-lg z-10 ">
